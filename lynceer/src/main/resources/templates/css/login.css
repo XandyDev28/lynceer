@@ -146,7 +146,14 @@ main div{
     color: #ffff;
     text-decoration: none;
     font-style: none;
+}
 
+.btnform button{
+    border: none;
+    background-color: transparent;
+    font-family: 'League Spartan';
+    font-size: 30pt;
+    border:solid  30px transparent;
 }
 
 /* mesnsagem de senha e cadastro */
