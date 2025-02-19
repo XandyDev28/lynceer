@@ -1,0 +1,176 @@
+/*-------------- IMPORTS / GLOBAL */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    flex-direction: column;
+    min-height: 110vh;
+    background-color: #9ea0ac;
+}
+header{
+    display: flex;
+    align-items: center;
+    font-family: 'League Spartan';
+    color: white;
+    font-size: 5em;
+    font-weight: bold;
+    letter-spacing: -4px;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2em; 
+}
+
+.tudo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+    width: 20rem;
+}
+
+.copyright{
+    display: flex;
+    font-size: 0.4em;
+    margin-bottom: 25px;
+    margin-left: 5px;
+    font-weight: lighter;
+}
+
+.logo{
+    align-items: center;
+    justify-content: center;
+}
+
+header img{
+    width: 120px;
+}
+
+header a{
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+header p{
+    margin-top: 10px;
+}
+main{
+    height: 98vh;
+    flex: 1 1 0;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    background-color: #7f8192;
+    height: 4em;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px -10px 20px, rgba(0, 0, 0, 0.23) 0px -6px 6px,  rgba(0, 0, 0, 0.35) 0px 50px 36px -28px inset;
+}
+
+/* main */
+
+main div{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+}
+.imgContratado{
+    width: 4rem;
+    height: 4rem;
+    position: relative;
+    top: 13px;
+}
+
+.formulario{
+    background-color: #7f8192;
+    height: 45rem;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 0.2rem rgb(87, 87, 87);
+    border-radius: 3.5rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgba(19, 19, 19, 0.35);
+    font-family: 'League Spartan';
+    font-size: 30pt;
+    color: black;
+}
+
+.forminput{
+    margin-top: 0rem;
+    color: black;
+}
+
+.inputs{
+    padding: 1.7rem;
+    margin: 0.7rem;
+    width: 30rem;
+    border-radius: 3rem;
+    border: solid black 1px;
+    font-family: 'League Spartan';
+    font-size: 30pt;
+    text-align: center;
+}
+.imgpais{
+    width: 100vh;
+    height: 100vh;
+}
+
+/* botao Cadastrar */
+
+.btnform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    width: 17rem;
+    background-color: #383940;
+    text-align: center;
+    margin: 30px;
+    border: solid 0.2rem black;
+    border-radius: 3rem;
+    margin-bottom: 4rem;
+}
+
+.btnform:hover{
+    transform: scale(1.25);
+    opacity: 0.8;
+    transition: 0.6s;
+}
+
+.btnform:active{
+    transform: scale(0.85);
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.btna{
+    color: #ffff;
+    text-decoration: none;
+    font-style: none;
+    
+
+}
+
+/* mesnsagem de senha e cadastro */
+
+.msgextra{
+    text-align: center;
+}
+
+.msgextra p a{
+    color: black;
+}
+
+.msgextra p a:active{
+    color: red;
+    transition: 0.13s;
+}

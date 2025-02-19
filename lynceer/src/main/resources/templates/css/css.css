@@ -1,0 +1,52 @@
+/*-------------- IMPORTS / GLOBAL */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 110vh;
+    background-color: #dadce6;
+}
+header{
+    background-color: #606270;
+    height: 2em;
+    font-family: 'League Spartan';
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: -4px;
+    display: flex;
+    align-items: center;
+    padding: 0.4em; 
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px,  rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+.copyright{
+    font-size: 0.4em;
+    margin-bottom: 25px;
+    margin-left: 5px;
+    font-weight: lighter;
+}
+header img{
+    margin-bottom: 8px;
+    width: 60px;
+}
+header a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+header p{
+    margin-top: 10px;
+}
+main{
+    flex: 1 1 0;
+}
+footer{
+    background-color: #7f8192;
+    height: 4em;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px -10px 20px, rgba(0, 0, 0, 0.23) 0px -6px 6px,  rgba(0, 0, 0, 0.35) 0px 50px 36px -28px inset;
+}
