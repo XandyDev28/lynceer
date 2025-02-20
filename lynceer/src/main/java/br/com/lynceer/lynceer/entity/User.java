@@ -5,8 +5,6 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.OneToOne;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -17,20 +15,28 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Freelancer {
-    
+public class User {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Integer idFreelas;
+    private Integer idUser;
+    
+    @Column(nullable = false, length = 40)
+    private String nameUser; 
+    
+    @Column(nullable = false, length = 40)
+    private String emailUser;
+
+    @Column(nullable = false, length = 11)
+    private String cpfUser;
 
     @Column(nullable = false, length = 40)
-    private String categoryFreelas;
+    private String adresslUser;
 
-    @Column(nullable = false, length = 80)
-    private String descriptionFreelas;
+    @Column(nullable = false, length = 15)
+    private String tellUser;
 
-    @OneToOne
-    @JoinColumn(name = "fk_idUser")
-    private User user;
+    private Integer ageUser;
 
+    private Integer passwordUser;
 }
